@@ -10,6 +10,7 @@ export function middleware(request: NextRequest) {
   const isPublicPath =
     path === "/login" ||
     path === "/signup" ||
+    path === "/verifyemail"||
     path === "/forgotpassword";
 
   console.log("❤️  -Middleware"); // Make sure this log is intended
